@@ -1,0 +1,22 @@
+.btn-primary{
+    color: $color-brown-dark;
+    background-color: $color-aqua;
+    border-color: $color-aqua;
+    box-shadow: $box-shadow;
+    &:hover{
+        color: #fff;
+        background-color: $color-aqua-dark;
+        border-color: $color-aqua-dark;
+    }
+    &:focus{
+        color: #fff;
+        background-color: $color-aqua-dark;
+        border-color: $color-aqua-dark;
+        box-shadow: 0 0 0 .25rem $color-aqua;
+    }
+    &:active{
+        color: #fff;
+        background-color: $color-aqua-dark;
+        border-color: $color-aqua-dark;
+    }
+}

@@ -1,0 +1,16 @@
+.navbar-collapse{
+    flex-grow: 0;
+}
+.bg-blanco{
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: $color-brown-dark;
+    &:hover{
+        color: $color-brown-light;
+    }
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: $color-brown-light;
+    text-decoration: underline;
+}

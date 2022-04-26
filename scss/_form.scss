@@ -1,0 +1,26 @@
+.at-form{
+    border: solid 1px $color-brown-dark;
+    margin: 1px;
+    padding: 1rem;
+    background: linear-gradient(rgb(231, 221, 208), white);
+}
+.form-check-input{
+    &:checked{
+        background-color: $color-aqua-dark;
+        border-color: $color-aqua-dark;
+    }
+    &:focus{
+        border-color: $color-aqua-dark;
+        outline: 0;
+        box-shadow: 0 0 0 .23rem $color-aqua;
+    }
+}
+.form-control, .form-select{
+    &:focus{
+        color: #212529;
+        background-color: #fff;
+        border-color: $color-aqua-dark;
+        outline: 0;
+        box-shadow: 0 0 0 .25rem $color-aqua;
+    }
+}

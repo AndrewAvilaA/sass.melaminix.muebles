@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../backgrounds/white-waves.png);
+    background-color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(63, 63, 63);
+}
+.log-mela{
+    width: 80vw;
+    box-shadow: $box-shadow;
+}
+.footer-prop{
+    height: 8rem;
+    color: $color-brown-dark;
+}
+.titulo{
+    color: $color-brown-dark;
+    text-shadow: $text-shadow;
+}
+a{
+    color: $color-brown-dark;
+    &:hover{
+        color: #593c139b;
+        text-shadow: $text-shadow;
+    }
+}
+footer{
+    p{
+        text-shadow: $text-shadow;
+    }
+}

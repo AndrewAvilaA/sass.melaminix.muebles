@@ -1,0 +1,12 @@
+@media screen and (max-width: 500px) {
+    .nav-bar-logo{
+        width: 70vw;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-prop{
+        height: 12rem;
+    }
+}
